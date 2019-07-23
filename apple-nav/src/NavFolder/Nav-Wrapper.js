@@ -1,5 +1,10 @@
 import React from 'react'
+
 import { BrowserRouter as NavLink } from 'react-router-dom'
+
+import styled from 'styled-components';
+const UlStyle = styled.li`display: flex; flex-direction: row; justify-content: space-evenly; list-style: none;`;
+
 
 export default function NavWrapper() {
 
